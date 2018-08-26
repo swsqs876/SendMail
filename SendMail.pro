@@ -6,7 +6,7 @@
 
 QT       += core network xlsx
 
-#greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = SendMail
 TEMPLATE = app
@@ -25,18 +25,18 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-#        widget.cpp \
+        widget.cpp \
         smtp.cpp
 
 
 HEADERS += \
-#        widget.h \
+        widget.h \
         smtp.h
 
 
 RC_ICONS = logo.ico
 
-#FORMS += \
-#        widget.ui
+FORMS += \
+        widget.ui
 
 #include(vender/QtXlsxWriter/src/xlsx/qtxlsx.pri)
