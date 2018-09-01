@@ -45,14 +45,6 @@ int main(int argc, char *argv[])
     //    }
 
 
-    int i =0;
-
-    //    Smtp smtp("*******@163.com","hahaha123");
-
-    //    smtp.send("***********@gmail.com","测试邮件","这是一封测试邮件123^_^");
-
-    //    exit(0);
-
 
     return a.exec();
     //    return 0;
